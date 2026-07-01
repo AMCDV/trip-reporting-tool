@@ -98,9 +98,9 @@ An additional web service, adjacent to OC, enriching data about chapter led Acti
 ### 2.2 Product Functions
 <!-- major functional areas or features the product provides in 5–10 concise bullets -->
 
-- Enableds trip leaders to enter additional information about an OC Activity that does not create redundant data
+- Enableds trip leaders to enter additional information about an OC Activity while not creating redundant data
 - Enables AMC to perform analysis on data about Activities
-- Store physical signed waivers in a PII compliant way
+- Stores physical signed waivers in a PII compliant fashion
 
 ### 2.3 Product Constraints
 <!-- design and implementation constraints that affect the solution -->
@@ -154,7 +154,7 @@ N/A
 #### 3.1.3 Software Interfaces
 <!-- integrations with other systems (APIs, contracts, owner, etc) -->
 
-OC API
+Integrates with an OC API.
 
 ### 3.2 Functions
 <!-- externally observable behaviors organized by feature/use case -->
@@ -178,13 +178,17 @@ Encryption of Data in Motion and Data At Rest.
 #### 3.3.4 Availability
 <!-- readiness to deliver service (target SLAs, maintenance windows, recovery/restore, etc) -->
 
+Maintenance windows will be communicated via official AMC email at least a month in advance of a planned maintenance window. Additionally, notifications will be sent out the week of, and the day of.
+
 #### 3.3.5 Observability
 <!--  logs, metrics, traces, alerting and dashboards -->
+
+Expose runtime metrics for consumption by Prometheus.
 
 ### 3.4 Compliance
 <!-- laws, standards, contracts, or policies; cite the authority and verifiable criteria. -->
 
-PII for physically signed waivers
+PII for physically signed waivers.
 
 ### 3.5 Design and Implementation
 <!-- constraints and mandates on design, deployment, and maintenance section -->
